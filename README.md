@@ -11,6 +11,7 @@ cadbalyがスターしたリポジトリを用途別にカテゴリ分けした�
 - [AI エージェント / スキル](#ai-エージェント--スキル)
 - [スペック駆動開発](#スペック駆動開発)
 - [セキュリティ / ネットワーク](#セキュリティ--ネットワーク)
+- [インフラ / IaC](#インフラ--iac)
 - [開発環境 / ツール](#開発環境--ツール)
 - [フォント](#フォント)
 - [エミュレーター](#エミュレーター)
@@ -23,11 +24,13 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 
 | リポジトリ | 概要 | 言語 |
 |---|---|---|
+| [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code 本体。ターミナルで動くエージェント型コーディングツール。コードベースを理解し、自然言語からタスク実行・コード解説・git ワークフローまでをこなす | Shell |
 | [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | GitHub Actions と Claude Code を統合する公式アクション。PR やイシューに AI レビュー・コード生成を組み込める | TypeScript |
 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Anthropic 公式が管理する高品質な Claude Code プラグイン（MCP・Skills）のディレクトリ | Python |
 | [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Claude Code に関するスキル・フック・スラッシュコマンド・エージェント等のキュレーション Awesome リスト | Python |
 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | Claude Code の設定・監視を行う CLI ツール。テンプレート管理に便利 | Python |
 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Claude Code / Codex / Cursor 向けのエージェントハーネス最適化システム（スキル・記憶・セキュリティ） | JavaScript |
+| [gastownhall/beads](https://github.com/gastownhall/beads) | コーディングエージェントの「メモリ拡張」ツール。Claude Code などに長期記憶を付与する | Go |
 | [nilbuild/claude-statusline](https://github.com/nilbuild/claude-statusline) | Claude Code 用のシンプルなステータスライン設定。ターミナルに進捗を表示 | Shell |
 | [GenerativeAgents/claude-code-book-chapter8](https://github.com/GenerativeAgents/claude-code-book-chapter8) | Claude Code 解説書の第8章サンプルコード | TypeScript |
 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | Andrej Karpathy の LLM コーディング観察に基づく CLAUDE.md 一枚。Claude Code の挙動を改善 | — |
@@ -41,6 +44,8 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | リポジトリ | 概要 | 言語 |
 |---|---|---|
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | 100 以上の LLM API を OpenAI 形式で呼び出せる SDK／プロキシ（AI Gateway）。コスト追跡・ガードレール・ロードバランシング対応 | Python |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | エージェント／LLM／ML モデルのデバッグ・評価・監視・最適化を行う OSS の AI エンジニアリング基盤。LLMOps・MLOps を統合管理 | Python |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | C/C++ 製の高速 LLM 推論エンジン。CPU・GPU・各種ハードウェアでローカル推論を実現するデファクト | C++ |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | LLM のトークン消費を 60〜90% 削減する CLI プロキシ。Rust 単一バイナリで依存ゼロ | Rust |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | PDF・Word・Excel などのファイルを Markdown に変換する Python ツール。RAG のデータ準備に活用できる | Python |
 
@@ -81,6 +86,16 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 
 ---
 
+## インフラ / IaC
+
+クラウドインフラの宣言的管理・プロビジョニングに関するツール。
+
+| リポジトリ | 概要 | 言語 |
+|---|---|---|
+| [opentofu/opentofu](https://github.com/opentofu/opentofu) | Terraform からフォークされた OSS の IaC ツール。クラウドインフラを宣言的に管理。Linux Foundation 配下でコミュニティ主導 | Go |
+
+---
+
 ## 開発環境 / ツール
 
 ターミナル環境・dotfiles・仮想化・ライブラリなど開発生産性を高めるツール群。
@@ -112,4 +127,4 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 
 ---
 
-> 最終更新: 2026-05-05
+> 最終更新: 2026-05-10
