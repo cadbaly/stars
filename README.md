@@ -11,6 +11,7 @@ cadbalyがスターしたリポジトリを用途別にカテゴリ分けした�
 - [AI エージェント / スキル](#ai-エージェント--スキル)
 - [スペック駆動開発](#スペック駆動開発)
 - [セキュリティ / ネットワーク](#セキュリティ--ネットワーク)
+- [ネットワーク / OS](#ネットワーク--os)
 - [インフラ / IaC](#インフラ--iac)
 - [開発環境 / ツール](#開発環境--ツール)
 - [フォント](#フォント)
@@ -33,7 +34,8 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | [gastownhall/beads](https://github.com/gastownhall/beads) | コーディングエージェントの「メモリ拡張」ツール。Claude Code などに長期記憶を付与する | Go |
 | [nilbuild/claude-statusline](https://github.com/nilbuild/claude-statusline) | Claude Code 用のシンプルなステータスライン設定。ターミナルに進捗を表示 | Shell |
 | [GenerativeAgents/claude-code-book-chapter8](https://github.com/GenerativeAgents/claude-code-book-chapter8) | Claude Code 解説書の第8章サンプルコード | TypeScript |
-| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | Andrej Karpathy の LLM コーディング観察に基づく CLAUDE.md 一枚。Claude Code の挙動を改善 | — |
+| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | Andrej Karpathy の LLM コーディング観察に基づく CLAUDE.md 一枚。Claude Code の挙動を改善 | — |
+| [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Claude Code を無料で使うための代替実装。ターミナル・VSCode 拡張・Discord 経由で利用でき、音声入力にも対応 | Python |
 
 ---
 
@@ -57,8 +59,10 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 
 | リポジトリ | 概要 | 言語 |
 |---|---|---|
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | AI 駆動の開発を実現するエージェントプラットフォーム。ブラウジング・コマンド実行・コード編集を自律的にこなす 🙌 | Python |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 任意 OS／プラットフォームで動作する個人向け AI アシスタント。データ主権を重視 🦞 | TypeScript |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Claude / Codex / OpenAI など複数バックエンドに対応する成長型エージェント | Python |
+| [dahatake/skills](https://github.com/dahatake/skills) | エージェントプラグインとして提供される skills 集 | Python |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Reddit・X・YouTube・HN・Polymarket・Web を横断調査して根拠付きで要約する AI エージェントスキル | Python |
 
 ---
@@ -71,6 +75,8 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 |---|---|---|
 | [github/spec-kit](https://github.com/github/spec-kit) | GitHub 公式のスペック駆動開発ツールキット。PRD から実装タスクを自動生成 | Python |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | AI コーディングアシスタントのためのオープンなスペック駆動開発フレームワーク | TypeScript |
+| [gotalab/cc-sdd](https://github.com/gotalab/cc-sdd) | 承認済みスペックから長時間の自律実装へ繋ぐ最小・汎用の SDD ハーネス。Claude Code・Codex・Cursor・Copilot 等の Agent Skills に対応 | TypeScript |
+| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 著名ブランドのデザインシステムに着想を得た DESIGN.md コレクション。プロジェクトに置くだけでコーディングエージェントが整合した UI を生成 | — |
 
 ---
 
@@ -83,6 +89,16 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Git リポジトリや各種ソースから API キー・パスワードなどの漏洩シークレットを検出・検証するツール | Go |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | Git の履歴・ステージングからシークレットを検出する軽量 CLI。CI/CD に組み込みやすい | Go |
 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | WireGuard ベースのオーバーレイ VPN。SSO・MFA・細粒度のアクセス制御付きでデバイス間を安全に接続（Zero Trust） | Go |
+
+---
+
+## ネットワーク / OS
+
+ルーター・組込みデバイス向けの OS／ファームウェア。
+
+| リポジトリ | 概要 | 言語 |
+|---|---|---|
+| [openwrt/openwrt](https://github.com/openwrt/openwrt) | ルーター・組込みネットワーク機器向けの Linux ディストリビューション。本リポジトリは公式 git の GitHub ミラー | C |
 
 ---
 
@@ -127,4 +143,4 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 
 ---
 
-> 最終更新: 2026-05-10
+> 最終更新: 2026-05-17
