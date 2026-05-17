@@ -12,14 +12,11 @@ cadbaly がスターしたリポジトリの最新一覧を取得し、`README.m
 
 ### 1. 最新スターを取得して差分を確認
 
-GitHub API でスター一覧を取得します（ページング対応・最大 200 件想定）。
+GitHub API でスター一覧を取得します。`--paginate` で全ページを自動結合します。
 
 ```bash
-gh api -H "Accept: application/vnd.github+json" "users/cadbaly/starred?per_page=100&page=1" \
-  --jq '.[] | "\(.full_name)\t\(.html_url)\t\(.description // "")\t\(.language // "")"' > /tmp/stars-page1.tsv
-gh api -H "Accept: application/vnd.github+json" "users/cadbaly/starred?per_page=100&page=2" \
-  --jq '.[] | "\(.full_name)\t\(.html_url)\t\(.description // "")\t\(.language // "")"' > /tmp/stars-page2.tsv
-cat /tmp/stars-page1.tsv /tmp/stars-page2.tsv > /tmp/stars-latest.tsv
+gh api --paginate -H "Accept: application/vnd.github+json" "users/cadbaly/starred?per_page=100" \
+  --jq '.[] | "\(.full_name)\t\(.html_url)\t\(.description // "")\t\(.language // "")"' > /tmp/stars-latest.tsv
 wc -l /tmp/stars-latest.tsv
 ```
 
@@ -107,6 +104,6 @@ EOF
 ## 注意
 
 - 追加・削除の両方を対象とします。削除分は事前にユーザー確認を取ること
-- API のページング漏れによる誤検出（実際にはまだスターしているのに「削除」と判定される）に注意。`per_page=100` で全ページを取得しきれているか確認すること
+- `--paginate` を使えばページ漏れは起きないが、`wc -l` の件数が想定より極端に少ない場合は API レスポンスを直接確認すること
 - 既存の表記・トーン・絵文字の有無を尊重してください
 - 不明点（カテゴリ判断に迷うリポジトリなど）はユーザーに確認してから進めてください
