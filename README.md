@@ -16,6 +16,8 @@ cadbalyがスターしたリポジトリを用途別にカテゴリ分けした�
 - [開発環境 / ツール](#開発環境--ツール)
 - [フォント](#フォント)
 - [エミュレーター](#エミュレーター)
+- [ゲーム](#ゲーム)
+- [センシング / 信号処理](#センシング--信号処理)
 
 ---
 
@@ -30,7 +32,7 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Anthropic 公式が管理する高品質な Claude Code プラグイン（MCP・Skills）のディレクトリ | Python |
 | [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Claude Code に関するスキル・フック・スラッシュコマンド・エージェント等のキュレーション Awesome リスト | Python |
 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | Claude Code の設定・監視を行う CLI ツール。テンプレート管理に便利 | Python |
-| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Claude Code / Codex / Cursor 向けのエージェントハーネス最適化システム（スキル・記憶・セキュリティ） | JavaScript |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | エージェントハーネスのパフォーマンス最適化システム。Claude Code・Codex・Opencode・Cursor 等向けにスキル・本能・記憶・セキュリティ・リサーチ駆動開発を提供 | JavaScript |
 | [gastownhall/beads](https://github.com/gastownhall/beads) | コーディングエージェントの「メモリ拡張」ツール。Claude Code などに長期記憶を付与する | Go |
 | [nilbuild/claude-statusline](https://github.com/nilbuild/claude-statusline) | Claude Code 用のシンプルなステータスライン設定。ターミナルに進捗を表示 | Shell |
 | [GenerativeAgents/claude-code-book-chapter8](https://github.com/GenerativeAgents/claude-code-book-chapter8) | Claude Code 解説書の第8章サンプルコード | TypeScript |
@@ -64,6 +66,7 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Claude / Codex / OpenAI など複数バックエンドに対応する成長型エージェント | Python |
 | [dahatake/skills](https://github.com/dahatake/skills) | エージェントプラグインとして提供される skills 集 | Python |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Reddit・X・YouTube・HN・Polymarket・Web を横断調査して根拠付きで要約する AI エージェントスキル | Python |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 実務エンジニア向けの skills 集。作者の .claude ディレクトリからそのまま公開されている | Shell |
 
 ---
 
@@ -122,6 +125,7 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | [mozumasu/dotfiles](https://github.com/mozumasu/dotfiles) | macOS 向けの dotfiles 設定集。Neovim・WezTerm・zsh の設定が含まれる | Lua |
 | [smol-machines/smolvm](https://github.com/smol-machines/smolvm) | ポータブルで軽量・自己完結型の仮想マシンをビルド・実行するツール（libkrun ベース） | Rust |
 | [chenglou/pretext](https://github.com/chenglou/pretext) | 高速・高精度なテキスト計測＆レイアウトライブラリ。フォントメトリクスの精密な制御が必要な UI に有用 | TypeScript |
+| [dotenvx/dotenvx](https://github.com/dotenvx/dotenvx) | `dotenv` 作者によるセキュアな dotenv。`.env` ファイルを暗号化して安全に扱える | JavaScript |
 
 ---
 
@@ -143,4 +147,24 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 
 ---
 
-> 最終更新: 2026-05-17
+## ゲーム
+
+ゲームプレイを補助するツール。
+
+| リポジトリ | 概要 | 言語 |
+|---|---|---|
+| [buri34/poenavi](https://github.com/buri34/poenavi) | Path of Exile 1 のレベリングガイド＆タイマーツール。エリア自動検出に対応 | Python |
+
+---
+
+## センシング / 信号処理
+
+センサーデータや無線信号を解析するツール。
+
+| リポジトリ | 概要 | 言語 |
+|---|---|---|
+| [ruvnet/RuView](https://github.com/ruvnet/RuView) | 市販の WiFi 信号をリアルタイムの空間インテリジェンス・バイタルサイン監視・在室検知に変換。映像を一切使わずに実現する | Rust |
+
+---
+
+> 最終更新: 2026-05-24
