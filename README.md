@@ -10,6 +10,7 @@ cadbalyがスターしたリポジトリを用途別にカテゴリ分けした�
 - [LLM / AI ツール](#llm--ai-ツール)
 - [AI エージェント / スキル](#ai-エージェント--スキル)
 - [スペック駆動開発](#スペック駆動開発)
+- [デザイン](#デザイン)
 - [セキュリティ / ネットワーク](#セキュリティ--ネットワーク)
 - [ネットワーク / OS](#ネットワーク--os)
 - [インフラ / IaC](#インフラ--iac)
@@ -67,6 +68,7 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | [dahatake/skills](https://github.com/dahatake/skills) | エージェントプラグインとして提供される skills 集 | Python |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Reddit・X・YouTube・HN・Polymarket・Web を横断調査して根拠付きで要約する AI エージェントスキル | Python |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | 実務エンジニア向けの skills 集。作者の .claude ディレクトリからそのまま公開されている | Shell |
+| [steipete/agent-scripts](https://github.com/steipete/agent-scripts) | 複数リポジトリ間で共有するエージェント用スクリプト集。作者が自身のリポジトリ群で使い回す実用スクリプトをまとめている | JavaScript |
 
 ---
 
@@ -80,6 +82,16 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | AI コーディングアシスタントのためのオープンなスペック駆動開発フレームワーク | TypeScript |
 | [gotalab/cc-sdd](https://github.com/gotalab/cc-sdd) | 承認済みスペックから長時間の自律実装へ繋ぐ最小・汎用の SDD ハーネス。Claude Code・Codex・Cursor・Copilot 等の Agent Skills に対応 | TypeScript |
 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 著名ブランドのデザインシステムに着想を得た DESIGN.md コレクション。プロジェクトに置くだけでコーディングエージェントが整合した UI を生成 | — |
+
+---
+
+## デザイン
+
+AI を活用したデザイン・UI 生成に関するツール。
+
+| リポジトリ | 概要 | 言語 |
+|---|---|---|
+| [nexu-io/open-design](https://github.com/nexu-io/open-design) | ローカルファースト／OSS の「Claude Design」代替ネイティブアプリ。259+ Skills・142+ デザインシステムを同梱し、Web・デスクトップ・モバイルのプロトタイプやスライド・画像・動画を生成。Claude Code・OpenClaw・Codex・Cursor 等の各種エージェント CLI に対応 | TypeScript |
 
 ---
 
@@ -167,4 +179,4 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 
 ---
 
-> 最終更新: 2026-05-24
+> 最終更新: 2026-05-31
