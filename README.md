@@ -39,6 +39,7 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | [GenerativeAgents/claude-code-book-chapter8](https://github.com/GenerativeAgents/claude-code-book-chapter8) | Claude Code 解説書の第8章サンプルコード | TypeScript |
 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | Andrej Karpathy の LLM コーディング観察に基づく CLAUDE.md 一枚。Claude Code の挙動を改善 | — |
 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Claude Code を無料で使うための代替実装。ターミナル・VSCode 拡張・Discord 経由で利用でき、音声入力にも対応 | Python |
+| [nyanta012/cc-personalize](https://github.com/nyanta012/cc-personalize) | 会話履歴からユーザーの興味プロファイルを生成・更新する Claude Code スキル | Python |
 
 ---
 
@@ -69,6 +70,7 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Reddit・X・YouTube・HN・Polymarket・Web を横断調査して根拠付きで要約する AI エージェントスキル | Python |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | 実務エンジニア向けの skills 集。作者の .claude ディレクトリからそのまま公開されている | Shell |
 | [steipete/agent-scripts](https://github.com/steipete/agent-scripts) | 複数リポジトリ間で共有するエージェント用スクリプト集。作者が自身のリポジトリ群で使い回す実用スクリプトをまとめている | JavaScript |
+| [hyperbrowserai/examples](https://github.com/hyperbrowserai/examples) | AI エージェント向けヘッドレスブラウザ基盤 Hyperbrowser の利用サンプル集。Web スクレイピング・ブラウザ自動化を LLM と連携 | Jupyter Notebook |
 
 ---
 
@@ -179,4 +181,4 @@ AI を活用したデザイン・UI 生成に関するツール。
 
 ---
 
-> 最終更新: 2026-05-31
+> 最終更新: 2026-06-06
