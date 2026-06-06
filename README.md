@@ -54,7 +54,6 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | C/C++ 製の高速 LLM 推論エンジン。CPU・GPU・各種ハードウェアでローカル推論を実現するデファクト | C++ |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | LLM のトークン消費を 60〜90% 削減する CLI プロキシ。Rust 単一バイナリで依存ゼロ | Rust |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | PDF・Word・Excel などのファイルを Markdown に変換する Python ツール。RAG のデータ準備に活用できる | Python |
-| [hyperbrowserai/examples](https://github.com/hyperbrowserai/examples) | AI エージェント向けヘッドレスブラウザ基盤 Hyperbrowser の利用サンプル集。Web スクレイピング・ブラウザ自動化を LLM と連携 | Jupyter Notebook |
 
 ---
 
@@ -71,6 +70,7 @@ Claude Code（Anthropic の CLI エージェント）の活用に特化したリ
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Reddit・X・YouTube・HN・Polymarket・Web を横断調査して根拠付きで要約する AI エージェントスキル | Python |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | 実務エンジニア向けの skills 集。作者の .claude ディレクトリからそのまま公開されている | Shell |
 | [steipete/agent-scripts](https://github.com/steipete/agent-scripts) | 複数リポジトリ間で共有するエージェント用スクリプト集。作者が自身のリポジトリ群で使い回す実用スクリプトをまとめている | JavaScript |
+| [hyperbrowserai/examples](https://github.com/hyperbrowserai/examples) | AI エージェント向けヘッドレスブラウザ基盤 Hyperbrowser の利用サンプル集。Web スクレイピング・ブラウザ自動化を LLM と連携 | Jupyter Notebook |
 
 ---
 
